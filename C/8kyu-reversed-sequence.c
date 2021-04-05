@@ -4,6 +4,20 @@
 #include <stdlib.h>
 
 unsigned short *reverse_seq(unsigned short num)
-{
-    return NULL;
+{   
+    unsigned short backwards[num];
+    unsigned short aux[num];
+    int n = num;
+  
+    if(num==0){
+      return NULL;
+    }else{
+      for(int i=0; i<num; i++){
+          backwards[i] += n;
+          printf("%d\t", n);
+          n--;
+      }
+    }
+  
+    return backwards;
 }
