@@ -6,9 +6,9 @@ My History of Katas
 
 # Languages
 :white_check_mark: C  
-:white_check_mark: C++  
+:black_square_button: C++  
 :black_square_button: C#  
-:white_check_mark: Rust  
+:black_square_button: Rust  
 :black_square_button: Go  
 :black_square_button: Swift  
 :black_square_button: R  
@@ -16,9 +16,9 @@ My History of Katas
 :black_square_button: Php  
 :black_square_button: Lua  
 :black_square_button: NASM  
-:black_square_button: SQL  
+:white_check_mark: SQL  
 :black_square_button: Scala  
-:white_check_mark: PowerShell  
-:white_check_mark: Shell  
+:black_square_button: PowerShell  
+:black_square_button: Shell  
 :white_check_mark: Python  
-:black_square_button: Ruby  
+:white_check_mark: Ruby  
