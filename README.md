@@ -1,7 +1,7 @@
 # CodeWars
 My History of Katas
 
-Rank : (This is mostly because of all the different languages, I don't usually go below ~6kyu)
+Rank : 5kyu (This is mostly because of all the different languages, I don't usually go below ~6kyu)
 
 # Languages
 :white_check_mark: C  
