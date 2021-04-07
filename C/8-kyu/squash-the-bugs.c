@@ -8,23 +8,20 @@
 #include <ctype.h>
 
 size_t find_longest(const char *words) {
-  size_t length = 0;
-  size_t max_length = 0;
+  size_t length = 0, max_length = 0;
   const char *pchar = words;
-  
   char c;
+  
   while ((c = *pchar++)) {
     if (isspace(c)) {
-      if (length > max_length) {
-        max_length = length;
-      }
+      max_length = length > max_length ? length : max_length; //Conditional Operator exp1 ? true : false
       length = 0;
     } else {
       length++;
     }
   }
-  if (length > max_length) {
-    max_length = length;
-  }
+  
+  max_length = length > max_length ? length : max_length; //Conditional Operator exp1 ? true : false
+  
   return max_length;
 }
