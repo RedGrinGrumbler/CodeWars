@@ -14,7 +14,7 @@ My History of Katas
 :black_square_button: R  
 :black_square_button: Perl  
 :black_square_button: Php  
-:black_square_button: Lua  
+:white_check_mark: Lua  
 :black_square_button: NASM  
 :white_check_mark: SQL  
 :black_square_button: Scala  
