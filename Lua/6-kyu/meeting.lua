@@ -1,7 +1,10 @@
 local solution = {}
 
 function solution.meeting(s)
-    -- your code
+    --match names
+    for i in string.gmatch(s,"%a+:%a+") do
+      print(i)
+    end
     return ""
 end
   
