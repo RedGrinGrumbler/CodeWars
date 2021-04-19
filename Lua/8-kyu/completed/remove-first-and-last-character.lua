@@ -4,3 +4,7 @@ function kata.remove_chars(s)
 end
 
 return kata
+
+
+-- ## Better Solution ##
+-- return s:sub(2,#s-1) or s
