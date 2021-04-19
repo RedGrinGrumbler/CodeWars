@@ -1,7 +1,6 @@
 local kata={}
 function kata.remove_chars(s)
-  --your code here
-  
+  return string.sub(s,2,string.len(s)-1)
 end
 
 return kata
