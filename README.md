@@ -1,4 +1,7 @@
 # CodeWars
+
+https://www.codewars.com/dashboard
+
 My History of Katas
 
 ### Rank 
