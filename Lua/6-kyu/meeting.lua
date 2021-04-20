@@ -2,11 +2,12 @@ local solution = {}
 
 function solution.meeting(s)
     for i in string.gmatch(s,"%a+:%a+") do
-      local x = i:gsub("(%a+):(%a+)", "%2:%1")
-      local y = x:find(":")-1
-      print(x)
-      print("Last: "..x:sub(1,y))
-      print("First: "..x:sub(y,x:len(x)))
+      local m = i:find(":")-1
+      local first = i:sub(1,m)
+      local last = i:sub(m+2,i:len(i))
+      print(i)
+      print("First: "..first)
+      print("Last: "..last)
       print("")
     end
     return ""
